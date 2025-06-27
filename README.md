@@ -1,9 +1,7 @@
-🚀 Basic AWS Landing Zone Component with Terraform
-
+[⚠️ Suspicious Content] 🚀 Basic AWS Landing Zone Component with Terraform
 This repository contains Infrastructure as Code (IaC) for deploying a foundational, secure, and organized AWS environment. This project serves as a baseline for deploying future workloads in a well-architected way, emphasizing a multi-account strategy, centralized logging, and secure access management.
 
 ✨ Project Overview
-
 A "Landing Zone" is a meticulously configured, secure, and scalable AWS environment that serves as the starting point for your cloud operations. This project automates the deployment of essential foundational components, providing a robust and compliant base for any AWS workload.
 
 This setup demonstrates:
@@ -17,7 +15,6 @@ Identity Management: Setting up foundational IAM groups.
 Network Foundation: Deploying a dedicated Virtual Private Cloud (VPC).
 
 🌟 Key Features & Technologies
-
 Infrastructure as Code (IaC): Defined and managed entirely using Terraform.
 
 AWS Organizations: Establishes a master account, root, and foundational Organizational Units (OUs) for logical account grouping (Security, Workloads, Sandbox).
@@ -33,7 +30,6 @@ Foundational Networking: Deploys a dedicated Amazon VPC using a Terraform module
 Basic IAM Structure: Creates essential AWS Identity and Access Management (IAM) groups (Administrators, ReadOnlyUsers) with attached AWS-managed policies for simplified user management.
 
 🌐 Architecture Overview
-
 This project sets up the core management and foundational layers within an AWS account:
 
 +-------------------------------------------------------+
@@ -83,7 +79,6 @@ IAM Groups: Predefined groups for common permission sets.
 VPC: A dedicated virtual network isolated within AWS.
 
 🚀 Deployment Steps
-
 Follow these steps to deploy your basic AWS Landing Zone foundation using this Terraform configuration.
 
 Prerequisites
