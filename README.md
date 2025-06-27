@@ -17,6 +17,7 @@ Identity Management: Setting up foundational IAM groups.
 Network Foundation: Deploying a dedicated Virtual Private Cloud (VPC).
 
 🌟 Key Features & Technologies
+
 Infrastructure as Code (IaC): Defined and managed entirely using Terraform.
 
 AWS Organizations: Establishes a master account, root, and foundational Organizational Units (OUs) for logical account grouping (Security, Workloads, Sandbox).
@@ -32,6 +33,7 @@ Foundational Networking: Deploys a dedicated Amazon VPC using a Terraform module
 Basic IAM Structure: Creates essential AWS Identity and Access Management (IAM) groups (Administrators, ReadOnlyUsers) with attached AWS-managed policies for simplified user management.
 
 🌐 Architecture Overview
+
 This project sets up the core management and foundational layers within an AWS account:
 
 +-------------------------------------------------------+
@@ -45,7 +47,7 @@ This project sets up the core management and foundational layers within an AWS a
 | | | |   (OU)    | |    (OU)    | |    (OU)    | | | |
 | | | +-----------+ +------------+ +------------+ | | |
 | | +-----------------------------------------------+ | |
-| +---------------------------------------------------+ |
++---------------------------------------------------+ |
 |                                                       |
 | +---------------------------------------------------+ |
 | |              Centralized Logging                  | |
@@ -53,14 +55,14 @@ This project sets up the core management and foundational layers within an AWS a
 | | |  CloudTrail Trail   | --> | S3 Log Bucket   |   | |
 | | | (Organization-wide) |     | (Versioned, Enc.) |   | |
 | | +---------------------+     +-----------------+   | |
-| +---------------------------------------------------+ |
++---------------------------------------------------+ |
 |                                                       |
 | +---------------------------------------------------+ |
 | |                IAM Groups                         | |
 | | +---------------+    +----------------+         | |
 | | | Administrators|    | ReadOnlyUsers  |         | |
 | | +---------------+    +----------------+         | |
-| +---------------------------------------------------+ |
++---------------------------------------------------+ |
 |                                                       |
 | +---------------------------------------------------+ |
 | |                Core VPC Network                   | |
@@ -68,7 +70,6 @@ This project sets up the core management and foundational layers within an AWS a
 | | |      VPC (10.0.0.0/16)                        | | |
 | | | (via ./modules/vpc)                           | | |
 | | +-----------------------------------------------+ | |
-| +---------------------------------------------------+ |
 +-------------------------------------------------------+
 
 AWS Organizations: Provides the hierarchical structure to manage multiple AWS accounts.
@@ -82,6 +83,7 @@ IAM Groups: Predefined groups for common permission sets.
 VPC: A dedicated virtual network isolated within AWS.
 
 🚀 Deployment Steps
+
 Follow these steps to deploy your basic AWS Landing Zone foundation using this Terraform configuration.
 
 Prerequisites
@@ -104,7 +106,7 @@ Terraform installed (version 1.0+ recommended).
 Setup and Deployment
 Clone the Repository:
 
-git clone https://github.com/your-github-username/aws-landing-zone-terraform.git
+git clone [https://github.com/your-github-username/aws-landing-zone-terraform.git](https://github.com/your-github-username/aws-landing-zone-terraform.git)
 cd aws-landing-zone-terraform
 
 (Remember to replace your-github-username and aws-landing-zone-terraform with your actual GitHub details).
@@ -181,6 +183,7 @@ This will ask for confirmation (yes). Be absolutely sure you want to delete all 
 └── .gitignore              # Specifies files to ignore in Git (e.g., .terraform/, *.tfstate).
 
 🧠 Key Learnings & Interview Highlights
+
 This project provides hands-on experience with fundamental cloud concepts and tools, making it an excellent talking point for technical interviews:
 
 Foundational Cloud Setup & Governance:
