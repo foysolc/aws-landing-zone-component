@@ -1,0 +1,25 @@
+# Terraform files to ignore
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+.terraformrc
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*tfplan*
+.session
+.vscode/
+*.tfvars
+*.tfvars.json
+
+# Local .vscode folder for VS Code
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+Desktop.ini
