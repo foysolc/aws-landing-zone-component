@@ -87,17 +87,7 @@ VPC: A dedicated virtual network isolated within AWS.
 Follow these steps to deploy your basic AWS Landing Zone foundation using this Terraform configuration.
 
 Prerequisites
-An AWS Account with sufficient permissions to create:
-
-AWS Organizations: Your AWS account must be able to create or manage an Organization. This is typically done from a single "master" or "management" account.
-
-Amazon S3 Buckets, Policies, Versioning, Encryption.
-
-AWS CloudTrail.
-
-AWS IAM Groups and Policy Attachments.
-
-Amazon VPC.
+An AWS Account.
 
 AWS CLI installed and configured with appropriate credentials.
 
@@ -183,7 +173,6 @@ This will ask for confirmation (yes). Be absolutely sure you want to delete all 
 └── .gitignore              # Specifies files to ignore in Git (e.g., .terraform/, *.tfstate).
 
 🧠 Key Learnings & Interview Highlights
-
 This project provides hands-on experience with fundamental cloud concepts and tools, making it an excellent talking point for technical interviews:
 
 Foundational Cloud Setup & Governance:
