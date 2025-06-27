@@ -1,4 +1,4 @@
-[⚠️ Suspicious Content] 🚀 Basic AWS Landing Zone Component with Terraform
+🚀 Basic AWS Landing Zone Component with Terraform
 This repository contains Infrastructure as Code (IaC) for deploying a foundational, secure, and organized AWS environment. This project serves as a baseline for deploying future workloads in a well-architected way, emphasizing a multi-account strategy, centralized logging, and secure access management.
 
 ✨ Project Overview
