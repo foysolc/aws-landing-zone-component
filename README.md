@@ -210,36 +210,6 @@ terraform destroy
 
 ---
 
-## 🧠 Key Learnings & Interview Highlights
-
-This project provides hands-on experience with fundamental cloud concepts and tools, making it an excellent talking point for technical interviews:
-
-* **Foundational Cloud Setup & Governance:**
-
-    * "This project allowed me to implement core governance principles in AWS by setting up a **basic landing zone component**. This involved creating **AWS Organisational Units (OUs)** to enable a multi-account strategy, which is critical for **security, cost management, and resource isolation** in a growing cloud environment."
-
-* **Centralised Logging for Security & Auditing:**
-
-    * "I configured **AWS CloudTrail** to centralise API activity logging from my AWS Organisation into a dedicated and secure **Amazon S3 bucket**. This ensures comprehensive auditing capabilities, which are vital for **security monitoring, compliance, and troubleshooting** operational issues."
-
-* **Identity and Access Management (IAM) Best Practises:**
-
-    * "I established a foundational **IAM group structure** by creating 'Administrators' and 'ReadOnlyUsers' groups, and attaching appropriate AWS-managed policies. This demonstrates the implementation of the **principle of least privilege**, ensuring users only have the permissions necessary for their roles."
-
-* **Infrastructure as Code (IaC) for Foundational Components:**
-
-    * "Building on my previous experience, I used **Terraform** to automate the deployment of these landing zone components. This reinforced my ability to define, deploy, and manage complex cloud infrastructure through code, ensuring **repeatability, consistency, and efficient version control** of the AWS environment."
-
-* **Understanding Core AWS Services for Operations:**
-
-    * "This project deepened my understanding of how fundamental AWS services like **Organisations, S3, CloudTrail, and IAM** work together to create a secure and well-managed cloud environment, moving beyond simple application deployment to operational foundations."
-
-* **Problem-Solving & Attention to Detail:**
-
-    * "I practised meticulous configuration, especially concerning S3 bucket naming uniqueness, bucket policies for cross-service access (CloudTrail writing to S3), and understanding regional nuances for services like Organisations. I also debugged persistent `terraform validate` errors, adapting the code to use a working CloudTrail resource when `aws_cloudtrail_trail` caused issues and resolving S3 ACL conflicts."
-
----
-
 ## 📄 Licence
 
 This project is open-sourced under the [MIT Licence](LICENSE).
